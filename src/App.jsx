@@ -102,7 +102,7 @@ function App() {
         position: "absolute",
         height: "5px",
         backgroundColor: "#990f02",
-        top: `47%`,
+        top: `45%`,
         width: "120%"
       }
     } else if (winLine[1] == winLine[0] + 3) {  // vertical
@@ -153,31 +153,31 @@ function App() {
           className="game grid rounded-lg grid-cols-3 grid-rows-3 bg-black flex-wrap p-2 place-items-center">
           <div
             onClick={() => handleClick(0)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(0)}></div>}<div className='flex h-full'>{board[0]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl sm:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(0)}></div>}<div className='flex h-full'>{board[0]}</div></div>
           <div
             onClick={() => handleClick(1)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(1)}></div>}<div className='flex h-full'>{board[1]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(1)}></div>}<div className='flex h-full'>{board[1]}</div></div>
           <div
             onClick={() => handleClick(2)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(2)}></div>}<div className='flex h-full'>{board[2]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(2)}></div>}<div className='flex h-full'>{board[2]}</div></div>
           <div
             onClick={() => handleClick(3)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(3)}></div>}<div className='flex h-full'>{board[3]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(3)}></div>}<div className='flex h-full'>{board[3]}</div></div>
           <div
             onClick={() => handleClick(4)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(4)}></div>}<div className='flex h-full'>{board[4]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(4)}></div>}<div className='flex h-full'>{board[4]}</div></div>
           <div
             onClick={() => handleClick(5)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(5)}></div>}<div className='flex h-full'>{board[5]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(5)}></div>}<div className='flex h-full'>{board[5]}</div></div>
           <div
             onClick={() => handleClick(6)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(6)}></div>}<div className='flex h-full'>{board[6]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(6)}></div>}<div className='flex h-full'>{board[6]}</div></div>
           <div
             onClick={() => handleClick(7)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(7)}></div>}<div className='flex h-full'>{board[7]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(7)}></div>}<div className='flex h-full'>{board[7]}</div></div>
           <div
             onClick={() => handleClick(8)}
-            className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(8)}></div>}<div className='flex h-full'>{board[8]}</div></div>
+            className={`box relative flex justify-center items-center text-6xl md:text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(8)}></div>}<div className='flex h-full'>{board[8]}</div></div>
 
         </div>
         <button
