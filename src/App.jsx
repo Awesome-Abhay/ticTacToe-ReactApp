@@ -150,7 +150,7 @@ function App() {
         <div
 
           ref={boardRef}
-          style={{ width: "500px", height: "450px" }} className="game grid rounded-lg grid-cols-3 grid-rows-3 bg-black flex-wrap p-2 place-items-center">
+          className="game grid rounded-lg grid-cols-3 grid-rows-3 bg-black flex-wrap p-2 place-items-center">
           <div
             onClick={() => handleClick(0)}
             className={`box relative flex justify-center items-center text-8xl font-medium cursor-pointer rounded-lg w-9/10 h-9/10 bg-white`}>{winLine && <div style={getLineStyle(0)}></div>}<div className='flex h-full'>{board[0]}</div></div>
